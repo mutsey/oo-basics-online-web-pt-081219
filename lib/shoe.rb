@@ -8,8 +8,4 @@ attr_accessor :brand, :color, :size
     @title = cobble
   end
  
-  def turn_page
-    puts "Flipping the page...wow, you read fast!"
-  end
- 
 end
