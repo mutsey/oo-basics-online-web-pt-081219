@@ -1,11 +1,11 @@
 #shoe.rb 
 
 class shoe 
-attr_accessor :brand, :page_count, :genre
-  attr_reader :title
+attr_accessor :brand, :color, :size
+  attr_reader :condition
  
-  def initialize(title)
-    @title = title
+  def initialize(cobble)
+    @title = cobble
   end
  
   def turn_page
